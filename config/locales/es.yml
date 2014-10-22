@@ -39,7 +39,7 @@ es:
         created_at: Fecha del Pedido
         email: Email del Cliente
         ip_address: Dirección IP
-        item_total: Total de Artículo
+        item_total: Total en items
         number: Número
         payment_state: Estado del Pago
         shipment_state: Estado del Envío
@@ -373,7 +373,7 @@ es:
     balance_due: Saldo adeudado
     bill_address: Dirección de facturación
     billing: Facturación
-    billing_address: Dirección de facturación
+    billing_address: Datos de contacto
     both: Ambos
     calculator: Calculador
     calculator_settings_warning: Si cambias el tipo de calculador, debes guardar primero antes de editar las preferencias del calculador
@@ -470,7 +470,7 @@ es:
     default_tax: Tasa por defecto
     default_tax_zone: Zona de tasa por defecto
     delete: Borrar
-    delivery: Entregar
+    delivery: Despacho
     depth: Ancho
     description: Descripción
     destination: Destino
@@ -542,7 +542,7 @@ es:
     flat_rate_per_order: Tarifa plana (por pedido)
     flexible_rate: Tarifa flexible
     forgot_password: ¿Olvidaste el password?
-    free_shipping: Envío gratuito
+    free_shipping: Despacho sin costo
     front_end: Parte delantera
     gateway: Pasarela
     gateway_config_unavailable: Pasarela no disponible para entorno
@@ -592,7 +592,7 @@ es:
     iso_name: Nombre ISO
     item: Artículo
     item_description: Descripción del Artículo
-    item_total: Total del Artículo
+    item_total: Total items
     item_total_rule:
       operators:
         gt: Mayor que
@@ -740,13 +740,13 @@ es:
       selected_quantity_not_available: La cantidad seleccionada no esta disponible
     order_processed_successfully: Tu pedido ha sido procesado con éxito
     order_state:
-      address: Dirección
+      address: Contacto
       awaiting_return: Esperando devolución
       canceled: cancelada
       cart: Carrito
       complete: completado
-      confirm: Confirmada
-      delivery: Entrega
+      confirm: Confirmación
+      delivery: Despacho
       payment: Pago
       resumed: reanudado
       returned: devuelto
@@ -768,9 +768,9 @@ es:
     pay: pagar
     payment: Pago
     payment_information: Información del Pago
-    payment_method: Método de Pago
-    payment_method_not_supported: 
-    payment_methods: Métodos de Pago
+    payment_method: Medio de Pago
+    payment_method_not_supported:
+    payment_methods: Medios de Pago
     payment_processing_failed: El pago no pudo ser procesado, por favor comprueba los detalles que has introducido
     payment_processor_choose_banner_text: Si necesitas ayuda a la hora de escoger un procesador de pago, por favor visita
     payment_processor_choose_link: nuestra pagina de pagos
@@ -949,9 +949,9 @@ es:
     shipping_flat_rate_per_item: Tarifa plana por artículo empaquetado
     shipping_flat_rate_per_order: Tarifa Plana
     shipping_flexible_rate: Tarifa Flexible por artículo empaquetado
-    shipping_instructions: Instrucciones de envío
-    shipping_method: Método de Envío
-    shipping_methods: Métodos de Envío
+    shipping_instructions: Instrucciones de despacho
+    shipping_method: Método de Despacho
+    shipping_methods: Métodos de Despacho
     shipping_price_sack: Saco de Precio
     shop_by_taxonomy: Comprar por %{taxonomy}
     shopping_cart: Carrito de la Compra
@@ -1028,7 +1028,7 @@ es:
         message: Si has recibido este email, entonces tus preferencias de email son correctas
         subject: Mail de Test
     test_mode: Modo Test
-    thank_you_for_your_order: Gracias por tu compra. Por favor imprime una copia de esta página de confirmación para tus archivos.
+    thank_you_for_your_order: Gracias por tu compra. Te enviaremos un resumen de la compra por email. De todas maneras, puedes guardar una copia de esta página de confirmación como respaldo.
     there_are_no_items_for_this_order: El pedido no contiene artículos. Por favor, añade un artículo al pedido para continuar.
     there_were_problems_with_the_following_fields: Hubo un problema con los siguientes campos
     thumbnail: Thumbnail
