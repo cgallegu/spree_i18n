@@ -227,9 +227,9 @@ es:
         subject: Instrucciones para reinicializar el password
       unlock_instructions:
         subject: Instrucciones de desbloqueo
-    oauth_callbacks:
-      failure: No se te pudo autorizar desde %{kind} debido a "%{reason}".
-      success: Autorizada satisfactoriamente desde la cuenta %{kind}.
+    omniauth_callbacks:
+      failure: No se pudo iniciar sesión debido a "%{reason}".
+      success: ¡Bienvenido!
     unlocks:
       send_instructions: Recibirás un email con instrucciones sobre como desbloquear la cuenta en breves minutos.
       unlocked: Tu cuenta fue desbloqueada satisfactoriamente. Ya estás registrado.
@@ -616,12 +616,12 @@ es:
     location: Localización
     lock: Bloquear
     logged_in_as: Identificado como
-    logged_in_succesfully: Conectado con éxito
+    logged_in_succesfully: ¡Bienvenido!
     logged_out: Se ha cerrado la sesión.
-    login: Validación
-    login_as_existing: Validarse como cliente existente
+    login: Iniciar sesión
+    login_as_existing: Inicia tu sesión
     login_failed: No se ha podido iniciar la sesión, error de autenticación.
-    login_name: Validación
+    login_name: Nombre de usuario
     logout: Cerrar sesión
     look_for_similar_items: Buscar artículos similares
     maestro_or_solo_cards: Maestro/Sólo Tarjetas
@@ -1085,3 +1085,24 @@ es:
     zipcode: Código Postal
     zone: Zona
     zones: Zonas
+    # Merge de https://github.com/spree-contrib/spree_social/blob/b140d640fa1ce976a231db3b3f90a5e59839c6c9/config/locales/es-MX.yml
+    user_was_not_valid: "El usuario no es válido."
+    add_another_service: 'Añadir otro servicio para inicio de sesión:'
+    authentications:
+      destroy: 'Método de autenticación eliminado exitosamente.'
+    back_to_authentication_methods_list: "Volver a la lista de métodos de autenticación"
+    edit_social_method: 'Editando método de autenticación'
+    new_social_method: 'Nuevo método de autenticación'
+    no_authentication_methods_found: "No se encontraron métodos de autenticación"
+    one_more_step: 'Un paso más para completar tu registro'
+    remove_authentication_option_confirmation: '¿Estás seguro que quieres eliminar este método de autenticación?'
+    sign_into_account: 'Inicia sesión usando:'
+    sign_in_through_one_of_these_services: 'Inicia tu sesión usando:'
+    social_api_key: 'API Key'
+    social_api_secret: 'API Secret'
+    social_authentication_methods: 'Métodos de autenticación'
+    social_authentication_methods_description: 'Configurar métodos de autenticación de OAuth'
+    social_provider: 'Proveedor social'
+    please_confirm_your_email: 'Por favor confirma tu email para continuar'
+    sign_in_with: '¡Bienvenido!'
+    you_have_signed_in_with_these_services: "Has iniciado sesión con estos servicios"
