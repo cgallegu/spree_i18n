@@ -940,6 +940,8 @@ es:
       pending: Pendiente
       ready: Listo
       shipped: Enviado
+      printing_tab: Imprimiendo comanda
+      preparing: Preparando
     shipments: Envíos
     shipped: Enviado
     shipping: Envío
