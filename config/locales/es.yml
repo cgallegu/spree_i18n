@@ -509,9 +509,7 @@ es:
         could_not_create_taxon: No pude crear taxon
         no_payment_methods_available: No hay métodos de pago configurados para este entorno
         no_shipping_methods_available: No hay métodos de envió disponibles para la localización seleccionada, por favor cambia tu dirección e inténtalo de nuevo
-    errors_prohibited_this_record_from_being_saved:
-      one: 1 error impidió que pudiera guardarse el registro
-      other: ! '%{count} errores impidieron que pudiera guardarse el registro'
+    errors_prohibited_this_record_from_being_saved: Hay un problema con los datos ingresados. ¿Puedes revisar?
     event: Evento
     events:
       spree:
@@ -927,10 +925,10 @@ es:
     shipment_mailer:
       shipped_email:
         dear_customer: Estimado Cliente,
-        instructions: Su pedido ha sido enviado
-        shipment_summary: Resumen del envío
-        subject: Notificación de Envío
-        thanks: ¡Gracias por su compra!
+        instructions: Tu pedido esta listo para ser retirado
+        shipment_summary: Resumen del pedido
+        subject: Pedido listo para retiro
+        thanks: ¡Gracias por tu compra!
         track_information: ! 'Información Seguimiento: %{tracking}'
         track_link: ! 'Link del tracking: %{url}'
     shipment_state: Estado del envío
